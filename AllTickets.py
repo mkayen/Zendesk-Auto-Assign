@@ -1,6 +1,6 @@
 from zendesk import *
 
-zendesk = Zendesk('https://divide.zendesk.com', 'max.kayen@enterproid.com', 'Nov91990')
+zendesk = Zendesk('xx', 'xx', 'xx')
 allTix = zendesk.list_tickets(view_id=28994374)
 
 print allTix

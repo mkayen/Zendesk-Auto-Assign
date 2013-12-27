@@ -1,6 +1,6 @@
 from zendesk import *
 
-zendesk = Zendesk('https://divide.zendesk.com', 'max.kayen@enterproid.com', 'Nov91990')
+zendesk = Zendesk('xx', 'xx', 'xx')
 allGroups = zendesk.list_groups()
 
 support = allGroups[3]['users']
